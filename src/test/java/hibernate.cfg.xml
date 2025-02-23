@@ -1,0 +1,19 @@
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuración de la base de datos -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/jsphibernateraul</property>
+        <property name="connection.username">root</property>
+
+        <!-- Configuración de Hibernate -->
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="show_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
+
+
+        <!-- Escaneo de paquetes para encontrar las clases de entidad -->
+        <mapping class="entities.Proyectos"/>
+        <mapping class="entities.Tareas"/>
+    </session-factory>
+</hibernate-configuration>
+    

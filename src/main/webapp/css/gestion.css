@@ -1,0 +1,162 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dae9e7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 80%;
+    margin-top: 2%; /* Ajusta la distancia desde arriba */
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Contenedor de botones */
+.botones-container {
+    display: flex;
+    justify-content: space-between; /* Separa el botón de "Volver" de los demás */
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Botón de "Volver" alineado a la izquierda y rojo */
+#volver button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Botón de "Volver" con hover */
+#volver button:hover {
+    background-color: darkred;
+}
+
+/* Estilos para los botones generales */
+.botones-container form,
+.botones-container a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover de los botones */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Select de estado */
+select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#seleccionTipoUsuario {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+form {
+    margin-bottom: 2%; /* Espacio entre formularios */
+}
+
+form input, form textarea, form select {
+    margin-bottom: 2%; /* Espacio debajo de los campos */
+    padding: 8px; /* Relleno dentro de los campos */
+    width: 100%; /* Asegurarse de que los campos no se desborden */
+    max-width: 300px; /* Limitar el tamaño de los campos */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #007BFF; /* Color verde para el botón */
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; /* Un poco de espacio arriba del botón */
+}
+
+/* Espaciado de los títulos */
+h2 {
+    margin-top: 1%; /* Un poco más de espacio arriba del título */
+    margin-bottom: 0.5%; /* Un poco de espacio debajo del título */
+    font-size: 1.5em; /* Tamaño de fuente más grande */
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Evita bordes dobles */
+    margin-bottom: 30px; /* Espacio debajo de la tabla */
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2; /* Color de fondo de las cabeceras */
+}
+
+table td {
+    background-color: #fafafa; /* Fondo suave para las celdas */
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo para filas pares */
+}
+
+table tr:hover {
+    background-color: #eaeaea; /* Color al pasar el mouse */
+}
+
+/* Mensajes de contenido dinámico */
+p {
+    margin-top: 0.75%;
+    font-size: 1.1em;
+}
+
+/* Espaciado adicional para el mensaje final */
+p:last-of-type {
+    margin-top: 2%;
+}

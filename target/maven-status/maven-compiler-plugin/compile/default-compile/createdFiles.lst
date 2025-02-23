@@ -1,0 +1,13 @@
+Util\HibernateUtil.class
+entities\Proyectos.class
+Servltes\CrearTarea.class
+com\mycompany\jsp\hibernate\JakartaRestConfiguration.class
+Servltes\EliminarProyecto.class
+Servltes\ListarTarea.class
+Servltes\EliminarTarea.class
+DAO\proyectoDAO.class
+Servltes\CrearProyecto.class
+Servltes\ListarProyectos.class
+DAO\tareasDAO.class
+com\mycompany\jsp\hibernate\resources\JakartaEE8Resource.class
+entities\Tareas.class
